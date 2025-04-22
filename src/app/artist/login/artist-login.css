@@ -1,0 +1,45 @@
+/* Artist Login page specific styles */
+.login-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #000;
+}
+
+/* Ensure video container takes full height */
+.video-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+}
+
+/* Add a subtle overlay to ensure video doesn't interfere with text */
+.video-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+/* Remove any margins or paddings that might affect the video */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Ensure the login page takes full height */
+.login-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

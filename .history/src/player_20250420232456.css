@@ -1,0 +1,12 @@
+#sleek{
+max-width: 95% !important;
+}
+
+#hero-album-art{
+    place-self: center;
+    width: 85% !important;
+}
+
+#pp-div{
+    width: fit-content !important;
+}

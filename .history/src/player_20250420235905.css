@@ -1,0 +1,28 @@
+#sleek{
+width: 55rem !important;
+}
+
+#hero-album-art{
+    place-self: center;
+    width: 85% !important;
+}
+
+#pp-div{
+    width: fit-content !important;
+    display: flex;
+}
+
+#dots{
+    justify-self: left !important;
+    margin-left: auto;
+    max-width: 79rem !important;
+    width: 100% !important;
+}
+
+#desc{
+    font-size: small !important;
+}
+
+#curved{
+    border-radius: 30px !important;
+}
